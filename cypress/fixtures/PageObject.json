@@ -1,0 +1,77 @@
+{
+  "elements": [
+    {
+      "modulo": "main",
+      "elemento": "main page",
+      "dirpath": "http://localhost:4200/main/home",
+      "tipo": "page",
+      "evento": "load page"
+    },
+    {
+      "modulo": "main",
+      "elemento": "link admin",
+      "dirpath": "/html/body/app-root/app-main-container/div/header/app-header/nav/div[1]/div/div/ul/li[4]/a",
+      "tipo": "a",
+      "evento": "click"
+    },
+
+    {
+      "modulo": "admin",
+      "elemento": "link museum",
+      "dirpath": "/html/body/app-root/app-admin-container/div/header/app-header-admin/nav/div[1]/div/div/ul/li[1]/a",
+      "tipo": "a",
+      "evento": "click"
+    },
+
+    {
+      "modulo": "museum save",
+      "elemento": "txtName",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-museo-save/div/div/div[2]/div/div/div/form/div[1]/div/div/input",
+      "tipo": "name",
+      "evento": "type"
+    },
+    {
+      "modulo": "museum save",
+      "elemento": "txtDescription",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-museo-save/div/div/div[2]/div/div/div/form/div[2]/div/div/textarea",
+      "tipo": "description",
+      "evento": "type"
+    },
+
+    {
+      "modulo": "admin",
+      "elemento": "link movement",
+      "dirpath": " /html/body/app-root/app-admin-container/div/header/app-header-admin/nav/div[1]/div/div/ul/li[5]/a",
+      "tipo": "a",
+      "evento": "click"
+    },
+    {
+      "modulo": "movement save",
+      "elemento": "txtName",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-movement-save/div/div/div[2]/div/form/div[1]/div/div/input",
+      "tipo": "name",
+      "evento": "type"
+    },
+    {
+      "modulo": "movement save",
+      "elemento": "txtDescription",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-movement-save/div/div/div[2]/div/form/div[2]/div/div/textarea",
+      "tipo": "description",
+      "evento": "type"
+    },
+    {
+      "modulo": "movement save",
+      "elemento": "txtCountry",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-movement-save/div/div/div[2]/div/form/div[3]/div/div/input",
+      "tipo": "country",
+      "evento": "type"
+    },
+    {
+      "modulo": "movement save",
+      "elemento": "btnSave",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-movement-save/div/div/div[2]/div/form/div[4]/div/div[2]/button",
+      "tipo": "country",
+      "evento": "click"
+    }
+  ]
+}
