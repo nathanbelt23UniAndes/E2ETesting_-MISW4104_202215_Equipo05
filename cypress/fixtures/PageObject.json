@@ -14,7 +14,6 @@
       "tipo": "a",
       "evento": "click"
     },
-
     {
       "modulo": "admin",
       "elemento": "link museum",
@@ -22,22 +21,6 @@
       "tipo": "a",
       "evento": "click"
     },
-
-    {
-      "modulo": "museum save",
-      "elemento": "txtName",
-      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-museo-save/div/div/div[2]/div/div/div/form/div[1]/div/div/input",
-      "tipo": "name",
-      "evento": "type"
-    },
-    {
-      "modulo": "museum save",
-      "elemento": "txtDescription",
-      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-museo-save/div/div/div[2]/div/div/div/form/div[2]/div/div/textarea",
-      "tipo": "description",
-      "evento": "type"
-    },
-
     {
       "modulo": "admin",
       "elemento": "link movement",
@@ -87,7 +70,6 @@
       "tipo": "name",
       "evento": "type"
     },
-
     {
       "modulo": "artwork save",
       "elemento": "txtDescription",
@@ -102,7 +84,6 @@
       "tipo": "address",
       "evento": "type"
     },
-
     {
       "modulo": "artwork save",
       "elemento": "txtYear",
@@ -124,7 +105,6 @@
       "tipo": "select",
       "evento": "click"
     },
-
     {
       "modulo": "artwork save",
       "elemento": "cboArtist",
@@ -153,7 +133,6 @@
       "tipo": "button",
       "evento": "click"
     },
-
     {
       "modulo": "artwork save",
       "elemento": "checkDeselect",
@@ -161,7 +140,6 @@
       "tipo": "check",
       "evento": "click"
     },
-
     {
       "modulo": "artwork save",
       "elemento": "btnLess",
@@ -225,26 +203,20 @@
       "tipo": "a",
       "evento": "click"
     },
-
-
     {
-    
       "modulo": "movement-detail",
       "elemento": "linkArtist",
       "dirpath": "/html/body/app-root/app-main-container/div/main/app-breadcrumbs/nav/ol/li[2]/a",
       "tipo": "a",
       "evento": "click"
-    }
-    
-    ,
+    },
     {
       "modulo": "movement-detail",
       "elemento": "link artist",
       "dirpath": "/html/body/app-root/app-main-container/div/main/app-movement-detail/div/div/app-card-artists/div/div/div[2]/div/div[1]/div/div/a",
       "tipo": "a",
       "evento": "click"
-    }
-    ,
+    },
     {
       "modulo": "main",
       "elemento": "link artist list",
@@ -265,16 +237,14 @@
       "dirpath": "/html/body/app-root/app-main-container/div/main/app-artists/div/div/div[2]/div/div/div[2]/div/table/tbody/tr[1]/th/a",
       "tipo": "a",
       "evento": "click"
-    }
-    ,
+    },
     {
       "modulo": "artist-list",
       "elemento": "link movement",
       "dirpath": "/html/body/app-root/app-main-container/div/main/app-artists/div/div/div[2]/div/div/div[2]/div/table/tbody/tr[1]/td[3]/app-concat-movement/p/a",
       "tipo": "a",
       "evento": "click"
-    }
-    ,
+    },
     {
       "modulo": "artist-detail",
       "elemento": "containt page",
@@ -296,66 +266,238 @@
       "tipo": "a",
       "evento": "click"
     },
-  {
-    "modulo": "artist-detail",
-    "elemento": "bntReadMoreMovement",
-    "dirpath": "/html/body/app-root/app-main-container/div/main/app-artist-detail/div/div/div/div[2]/div[2]/div/app-card-movements/div/div/div[2]/div/div/div/div/p[2]/app-paragrah-max-length/p/button[1]",
-    "tipo": "a",
-    "evento": "click"
-  }
-  ,
-  {
-    "modulo": "artist-detail",
-    "elemento": "linkMovement",
-    "dirpath": "/html/body/app-root/app-main-container/div/main/app-artist-detail/div/div/div/div[2]/div[2]/div/app-card-movements/div/div/div[2]/div/div/div/div/p[2]/a",
-    "tipo": "a",
-    "evento": "click"
-  },
-  {
-    "modulo": "artist-detail",
-    "elemento": "linkArtWork",
-    "dirpath": "/html/body/app-root/app-main-container/div/main/app-artist-detail/div/div/div/app-card-art-works/div/div/div[2]/div/div[1]/div/div/a",
-    "tipo": "a",
-    "evento": "click"
-  },
-  {
-    "modulo": "artist-detail",
-    "elemento": "linkArtWork2",
-    "dirpath": "/html/body/app-root/app-main-container/div/main/app-artist-detail/div/div/div/app-card-art-works/div/div/div[2]/div/div[2]/div/div/a",
-    "tipo": "a",
-    "evento": "click"
-  }
-  ,
-  {
-    "modulo": "artwork-detail",
-    "elemento": "containt page",
-    "dirpath": "",
-    "tipo": "",
-    "evento": "containt artist name"
-  }
-  ,
-  {
-    "modulo": "artwork-detail",
-    "elemento": "containt page",
-    "dirpath": "",
-    "tipo": "",
-    "evento": "containt artwork Title"
-  } ,
-  {
-    "modulo": "artwork-detail",
-    "elemento": "containt page",
-    "dirpath": "",
-    "tipo": "",
-    "evento": "containt artwork year"
-  }
+    {
+      "modulo": "artist-detail",
+      "elemento": "bntReadMoreMovement",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-artist-detail/div/div/div/div[2]/div[2]/div/app-card-movements/div/div/div[2]/div/div/div/div/p[2]/app-paragrah-max-length/p/button[1]",
+      "tipo": "a",
+      "evento": "click"
+    },
+    {
+      "modulo": "artist-detail",
+      "elemento": "linkMovement",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-artist-detail/div/div/div/div[2]/div[2]/div/app-card-movements/div/div/div[2]/div/div/div/div/p[2]/a",
+      "tipo": "a",
+      "evento": "click"
+    },
+    {
+      "modulo": "artist-detail",
+      "elemento": "linkArtWork",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-artist-detail/div/div/div/app-card-art-works/div/div/div[2]/div/div[1]/div/div/a",
+      "tipo": "a",
+      "evento": "click"
+    },
+    {
+      "modulo": "artist-detail",
+      "elemento": "linkArtWork2",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-artist-detail/div/div/div/app-card-art-works/div/div/div[2]/div/div[2]/div/div/a",
+      "tipo": "a",
+      "evento": "click"
+    },
+    {
+      "modulo": "artwork-detail",
+      "elemento": "containt page",
+      "dirpath": "",
+      "tipo": "",
+      "evento": "containt artist name"
+    },
+    {
+      "modulo": "artwork-detail",
+      "elemento": "containt page",
+      "dirpath": "",
+      "tipo": "",
+      "evento": "containt artwork Title"
+    },
+    {
+      "modulo": "artwork-detail",
+      "elemento": "containt page",
+      "dirpath": "",
+      "tipo": "",
+      "evento": "containt artwork year"
+    },
+    {
+      "modulo": "museum save",
+      "elemento": "txtName",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-museo-save/div/div/div[2]/div/div/div/form/div[1]/div/div/input",
+      "tipo": "name",
+      "evento": "type"
+    },
+    {
+      "modulo": "museum save",
+      "elemento": "txtDescription",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-museo-save/div/div/div[2]/div/div/div/form/div[2]/div/div/textarea",
+      "tipo": "description",
+      "evento": "type"
+    },
+    {
+      "modulo": "museum save",
+      "elemento": "txtAddress",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-museo-save/div/div/div[2]/div/div/div/form/div[3]/div/div/input",
+      "tipo": "address",
+      "evento": "type"
+    },
+    {
+      "modulo": "museum save",
+      "elemento": "txtCity",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-museo-save/div/div/div[2]/div/div/div/form/div[4]/div/div/input",
+      "tipo": "city",
+      "evento": "type"
+    },
+    {
+      "modulo": "museum save",
+      "elemento": "selectImage",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-museo-save/div/div/div[2]/div/div/div/form/div[5]/div/div/app-image-selector/div/div[1]/ul[2]/li[1]/div/div[1]/input",
+      "tipo": "image",
+      "evento": "click"
+    },
+    {
+      "modulo": "museum save",
+      "elemento": "addImage",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-museo-save/div/div/div[2]/div/div/div/form/div[5]/div/div/app-image-selector/div/div[2]/div[1]/div/button",
+      "tipo": "add",
+      "evento": "click"
+    },
+    {
+      "modulo": "museum save",
+      "elemento": "save",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-museo-save/div/div/div[2]/div/div/div/form/div[7]/div/div[2]/button",
+      "tipo": "save",
+      "evento": "click"
+    },
+    {
+      "modulo": "admin",
+      "elemento": "link sponsor",
+      "dirpath": "/html/body/app-root/app-admin-container/div/header/app-header-admin/nav/div[1]/div/div/ul/li[2]/a",
+      "tipo": "a",
+      "evento": "click"
+    },
+    {
+      "modulo": "sponsor save",
+      "elemento": "txtName",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-sponsor-save/div/div/div[2]/div/form/div[1]/div/div/input",
+      "tipo": "name",
+      "evento": "type"
+    },
+    {
+      "modulo": "sponsor save",
+      "elemento": "txtDescription",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-sponsor-save/div/div/div[2]/div/form/div[2]/div/div/textarea",
+      "tipo": "description",
+      "evento": "type"
+    },
+    {
+      "modulo": "sponsor save",
+      "elemento": "txtWebSite",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-sponsor-save/div/div/div[2]/div/form/div[3]/div/div/input",
+      "tipo": "website",
+      "evento": "type"
+    },
+    {
+      "modulo": "sponsor save",
+      "elemento": "save",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-sponsor-save/div/div/div[2]/div/form/div[4]/div/div[2]/button",
+      "tipo": "save",
+      "evento": "click"
+    },
+    {
+      "modulo": "admin",
+      "elemento": "link artist",
+      "dirpath": "/html/body/app-root/app-admin-container/div/header/app-header-admin/nav/div[1]/div/div/ul/li[3]/a",
+      "tipo": "a",
+      "evento": "click"
+    },
+    {
+      "modulo": "artist save",
+      "elemento": "txtName",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-artist-save/div/div/div[2]/div/div/div/form/div[1]/div/div/input",
+      "tipo": "name",
+      "evento": "type"
+    },
+    {
+      "modulo": "artist save",
+      "elemento": "txtBirthPlace",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-artist-save/div/div/div[2]/div/div/div/form/div[2]/div/div/input",
+      "tipo": "country",
+      "evento": "type"
+    },
+    {
+      "modulo": "artist save",
+      "elemento": "txtBirthDate",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-artist-save/div/div/div[2]/div/div/div/form/div[3]/div/div/input",
+      "tipo": "date",
+      "evento": "type"
+    },
+    {
+      "modulo": "artist save",
+      "elemento": "selectImage",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-artist-save/div/div/div[2]/div/div/div/form/div[4]/div/app-image-selector/div/div[1]/ul[2]/li[1]/div/div[1]/input",
+      "tipo": "image",
+      "evento": "click"
+    },
+    {
+      "modulo": "artist save",
+      "elemento": "addImage",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-artist-save/div/div/div[2]/div/div/div/form/div[4]/div/app-image-selector/div/div[2]/div[1]/div/button",
+      "tipo": "add",
+      "evento": "click"
+    },
+    {
+      "modulo": "artist save",
+      "elemento": "selectMovement",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-artist-save/div/div/div[2]/div/div/div/form/div[6]/div/app-movements-selector/div[1]/input",
+      "tipo": "movement",
+      "evento": "click"
+    },
+    {
+      "modulo": "artist save",
+      "elemento": "save",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-artist-save/div/div/div[2]/div/div/div/form/div[8]/div/div/div[2]/button",
+      "tipo": "save",
+      "evento": "click"
+    },
+    {
+      "modulo": "admin",
+      "elemento": "link image",
+      "dirpath": "/html/body/app-root/app-admin-container/div/header/app-header-admin/nav/div[1]/div/div/ul/li[6]/a",
+      "tipo": "a",
+      "evento": "click"
+    },
+    {
+      "modulo": "image save",
+      "elemento": "txtAlt",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-image-save/div/div/div[2]/div/div/div/form/div[1]/div/div/textarea",
+      "tipo": "name",
+      "evento": "type"
+    },
+    {
+      "modulo": "image save",
+      "elemento": "txtHeight",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-image-save/div/div/div[2]/div/div/div/form/div[2]/div/div/input",
+      "tipo": "size",
+      "evento": "type"
+    },
+    {
+      "modulo": "image save",
+      "elemento": "txtWidth",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-image-save/div/div/div[2]/div/div/div/form/div[3]/div/div/input",
+      "tipo": "size",
+      "evento": "type"
+    },
+    {
+      "modulo": "image save",
+      "elemento": "txtSource",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-image-save/div/div/div[2]/div/div/div/form/div[4]/div/div/input",
+      "tipo": "website",
+      "evento": "type"
+    },
+    {
+      "modulo": "image save",
+      "elemento": "save",
+      "dirpath": "/html/body/app-root/app-admin-container/div/main/app-image-save/div/div/div[2]/div/div/div/form/div[6]/div/div[2]/button",
+      "tipo": "save",
+      "evento": "click"
+    }
 
-  
 
-    
-
-    
-    
-    
- 
   ]
 }
