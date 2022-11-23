@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-const { PageObject } = require("../Museum/pageObjects/PageObject.js");
+const { PageObject } = require("../pageObjects/PageObject.js");
 
 let pageObj= new PageObject();
 describe('Save Movement', () => {
@@ -23,6 +23,7 @@ describe('Save Movement', () => {
     pageObj.generateAction("movement save","txtDescription","type");
     pageObj.waiting(1000);
     pageObj.generateAction("movement save","txtCountry","type");
+    pageObj.waiting(1000);
     pageObj.generateAction("movement save","btnSave","click");
 
   });
