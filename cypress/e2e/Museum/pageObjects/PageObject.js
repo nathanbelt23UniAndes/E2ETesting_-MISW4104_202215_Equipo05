@@ -79,7 +79,9 @@ class PageObject {
   }
 
   eventType(modulo, elemento) {
+    console.log("#################################elemento =>", elemento, modulo);
     let elem = this.getElement(elemento, modulo);
+    console.log("#################################elemento =>", elem);
     let valorFake = this.fakerValue(elem.tipo);
     console.log("valor", valorFake);
     cy.xpath(elem.dirpath).clear();
@@ -125,7 +127,7 @@ class PageObject {
       case "country":
         return faker.address.country();
       case "address":
-        return faker.address.cardinalDirection();
+        return faker.address.direction();
       case "city":
         return faker.address.city();
       case "year":
@@ -136,6 +138,15 @@ class PageObject {
         return this.movementsText;
       case "search artist":
         return this.artistName;
+      case "website":
+        return faker.internet.url();
+      case "date":
+        let year = faker.datatype.number({ min: 1950, max: 2022 });
+        let month = faker.datatype.number({ min: 1, max: 12 });
+        let day = faker.datatype.number({ min: 1, max: 30 });
+        return `${year}-${month<10 ? "0"+ month : month}-${day<10 ? "0"+day : day}`;
+      case "size":
+        return faker.datatype.number({ min: 300, max: 1024 });
     }
   }
 
