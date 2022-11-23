@@ -10,7 +10,7 @@ describe('Save Movement', () => {
     pageObj.loadDataElements();
   });
 
-  it("create movement", ()=>
+  it("Create movement (HU16)", ()=>
   {
     pageObj.generateAction("main", "main page", "load page");
     pageObj.waiting(3500);
@@ -25,6 +25,8 @@ describe('Save Movement', () => {
     pageObj.generateAction("movement save","txtCountry","type");
     pageObj.waiting(1000);
     pageObj.generateAction("movement save","btnSave","click");
+     
+
 
   });
 

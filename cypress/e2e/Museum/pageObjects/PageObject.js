@@ -5,6 +5,7 @@ const { faker } = require("@faker-js/faker");
 class PageObject {
   constructor() {
     this.elements = [];
+    this.movementsText="Naive art";
   }
   getElement(elemento, modulo) {
     return this.elements.find(
@@ -27,9 +28,9 @@ class PageObject {
   }
 
   generateAction(modulo, elemento, evento) {
-Cypress.on("uncaught:exception", (err, runnable) => {
-return false;
-})                   
+    Cypress.on("uncaught:exception", (err, runnable) => {
+      return false;
+    });
     switch (evento) {
       case "click":
         this.eventoClick(modulo, elemento);
@@ -40,6 +41,12 @@ return false;
       case "type":
         this.eventType(modulo, elemento);
         break;
+      case "select":
+        this.eventSelect(modulo, elemento);
+        break;
+       case "containt movement": 
+          this.eventContaintMovment();
+        break; 
     }
   }
 
@@ -61,7 +68,17 @@ return false;
   }
   eventSelect(modulo, elemento) {
     let elem = this.getElement(elemento, modulo);
-     cy.xpath(elem.dirpath).select('100').should('have.value', '100');                    
+    cy.xpath(elem.dirpath).select("100").should("have.value", "100");
+  }
+
+  eventContaintMovment()
+  {
+    this.eventContaint(this.movementsText);
+  }
+
+  eventContaint(value)
+  {
+    cy.contains(value);
   }
 
   fakerValue(tipo) {
@@ -72,6 +89,17 @@ return false;
         return faker.lorem.paragraph();
       case "country":
         return faker.address.country();
+      case "address":
+        return faker.address.cardinalDirection();
+      case "city":
+        return faker.address.city();
+      case "year":
+        return  faker.datatype.number({'min': 1950,'max': 2022 });
+      case "type":
+         return faker.music.genre();
+      case "search movement":
+        return this.movementsText;  
+
     }
   }
 
