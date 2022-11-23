@@ -225,6 +225,18 @@
       "tipo": "a",
       "evento": "click"
     },
+
+
+    {
+    
+      "modulo": "movement-detail",
+      "elemento": "linkArtist",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-breadcrumbs/nav/ol/li[2]/a",
+      "tipo": "a",
+      "evento": "click"
+    }
+    
+    ,
     {
       "modulo": "movement-detail",
       "elemento": "link artist",
@@ -232,6 +244,118 @@
       "tipo": "a",
       "evento": "click"
     }
+    ,
+    {
+      "modulo": "main",
+      "elemento": "link artist list",
+      "dirpath": "/html/body/app-root/app-main-container/div/header/app-header/nav/div[1]/div/div/ul/li[2]/a",
+      "tipo": "a",
+      "evento": "click"
+    },
+    {
+      "modulo": "artist-list",
+      "elemento": "txtSearch",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-artists/div/div/div[2]/div/div/div[1]/div/div/div/input",
+      "tipo": "search artist",
+      "evento": "type"
+    },
+    {
+      "modulo": "artist-list",
+      "elemento": "link artist",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-artists/div/div/div[2]/div/div/div[2]/div/table/tbody/tr[1]/th/a",
+      "tipo": "a",
+      "evento": "click"
+    }
+    ,
+    {
+      "modulo": "artist-list",
+      "elemento": "link movement",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-artists/div/div/div[2]/div/div/div[2]/div/table/tbody/tr[1]/td[3]/app-concat-movement/p/a",
+      "tipo": "a",
+      "evento": "click"
+    }
+    ,
+    {
+      "modulo": "artist-detail",
+      "elemento": "containt page",
+      "dirpath": "",
+      "tipo": "",
+      "evento": "containt artist"
+    },
+    {
+      "modulo": "artist-detail",
+      "elemento": "link artists",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-breadcrumbs/nav/ol/li[2]/a",
+      "tipo": "a",
+      "evento": "click"
+    },
+    {
+      "modulo": "artist-detail",
+      "elemento": "link artist",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-movement-detail/div/div/app-card-artists/div/div/div[2]/div/div[1]/div/div/a",
+      "tipo": "a",
+      "evento": "click"
+    },
+  {
+    "modulo": "artist-detail",
+    "elemento": "bntReadMoreMovement",
+    "dirpath": "/html/body/app-root/app-main-container/div/main/app-artist-detail/div/div/div/div[2]/div[2]/div/app-card-movements/div/div/div[2]/div/div/div/div/p[2]/app-paragrah-max-length/p/button[1]",
+    "tipo": "a",
+    "evento": "click"
+  }
+  ,
+  {
+    "modulo": "artist-detail",
+    "elemento": "linkMovement",
+    "dirpath": "/html/body/app-root/app-main-container/div/main/app-artist-detail/div/div/div/div[2]/div[2]/div/app-card-movements/div/div/div[2]/div/div/div/div/p[2]/a",
+    "tipo": "a",
+    "evento": "click"
+  },
+  {
+    "modulo": "artist-detail",
+    "elemento": "linkArtWork",
+    "dirpath": "/html/body/app-root/app-main-container/div/main/app-artist-detail/div/div/div/app-card-art-works/div/div/div[2]/div/div[1]/div/div/a",
+    "tipo": "a",
+    "evento": "click"
+  },
+  {
+    "modulo": "artist-detail",
+    "elemento": "linkArtWork2",
+    "dirpath": "/html/body/app-root/app-main-container/div/main/app-artist-detail/div/div/div/app-card-art-works/div/div/div[2]/div/div[2]/div/div/a",
+    "tipo": "a",
+    "evento": "click"
+  }
+  ,
+  {
+    "modulo": "artwork-detail",
+    "elemento": "containt page",
+    "dirpath": "",
+    "tipo": "",
+    "evento": "containt artist name"
+  }
+  ,
+  {
+    "modulo": "artwork-detail",
+    "elemento": "containt page",
+    "dirpath": "",
+    "tipo": "",
+    "evento": "containt artwork Title"
+  } ,
+  {
+    "modulo": "artwork-detail",
+    "elemento": "containt page",
+    "dirpath": "",
+    "tipo": "",
+    "evento": "containt artwork year"
+  }
 
+  
+
+    
+
+    
+    
+    
+ 
   ]
 }
