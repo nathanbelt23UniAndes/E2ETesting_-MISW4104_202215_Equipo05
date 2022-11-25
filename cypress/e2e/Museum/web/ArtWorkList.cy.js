@@ -4,7 +4,7 @@ describe("ArtWork-List", () => {
   before(() => {
     pageObj.loadDataElements();
   });
-  it("ArtWork-List (HU06)", () => {
+  it("ArtWork-List (HU05-HU06)", () => {
     pageObj.generateAction("main", "main page", "load page");
     pageObj.waiting(3500);
     pageObj.generateAction("museum list", "museum_1_Hover", "hover");
