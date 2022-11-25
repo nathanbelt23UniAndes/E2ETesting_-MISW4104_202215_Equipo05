@@ -66,11 +66,21 @@ class PageObject {
       case "containt artwork year":
         this.eventContaintArtworkYear();
         break;
+      case "hover":
+        this.eventHover(modulo, elemento);
+        break;
     }
   }
-
+  eventHover(modulo, elemento){
+    let elem = this.getElement(elemento, modulo);
+    console.log(elem);
+    cy.xpath(elem.dirpath).trigger('mouseover');
+    //cy.xpath(elem.dirpath).trigger('mouseover', {force: true});
+    //cy.xpath(elem.dirpath).wrap();
+  }
   eventoClick(modulo, elemento) {
     let elem = this.getElement(elemento, modulo);
+    console.log(elem);
     cy.xpath(elem.dirpath).click({ force: true });
   }
   eventLoadPage(modulo, elemento) {
@@ -79,9 +89,7 @@ class PageObject {
   }
 
   eventType(modulo, elemento) {
-    console.log("#################################elemento =>", elemento, modulo);
     let elem = this.getElement(elemento, modulo);
-    console.log("#################################elemento =>", elem);
     let valorFake = this.fakerValue(elem.tipo);
     console.log("valor", valorFake);
     cy.xpath(elem.dirpath).clear();

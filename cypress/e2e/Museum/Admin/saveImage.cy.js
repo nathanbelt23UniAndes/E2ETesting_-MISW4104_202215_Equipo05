@@ -3,7 +3,7 @@
 const { PageObject } = require("../pageObjects/PageObject.js");
 
 let pageObj= new PageObject();
-describe('Save image', () => {
+describe('Save image (HU19)', () => {
   
   before(()=>
   {

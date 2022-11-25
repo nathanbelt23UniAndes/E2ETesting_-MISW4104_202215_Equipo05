@@ -496,8 +496,102 @@
       "dirpath": "/html/body/app-root/app-admin-container/div/main/app-image-save/div/div/div[2]/div/div/div/form/div[6]/div/div[2]/button",
       "tipo": "save",
       "evento": "click"
+    },
+    {
+      "modulo": "museum list",
+      "elemento": "museum_1",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-home/div/div/div[2]/div[1]/div[1]/div/figure/figcaption",
+      "tipo": "item",
+      "evento": "click"
+    },
+    {
+      "modulo": "museum list",
+      "elemento": "museum_1_Hover",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-home/div/div/div[2]/div[1]/div[1]/div/figure/figcaption",
+      "tipo": "item",
+      "evento": "hover"
+    },
+    {
+      "modulo": "museum list",
+      "elemento": "homeLink",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-breadcrumbs/nav/ol/li[1]/a",
+      "tipo": "home",
+      "evento": "click"
+    },
+    {
+      "modulo": "museum list",
+      "elemento": "museum_2",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-home/div/div/div[2]/div[2]/div[1]/div/figure/figcaption",
+      "tipo": "item",
+      "evento": "click"
+    },
+    {
+      "modulo": "museum list",
+      "elemento": "museum_3",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-home/div/div/div[2]/div[3]/div[1]/div/figure/figcaption",
+      "tipo": "item",
+      "evento": "click"
+    },
+    {
+      "modulo": "exhibition list",
+      "elemento": "exhibition_1",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-museum-detail/div/div/app-card-exhibitions/div/div/div[2]/div/div[1]/div/div/a",
+      "tipo": "item",
+      "evento": "click"
+    },
+    {
+      "modulo": "exhibition list",
+      "elemento": "exhibition_2",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-museum-detail/div/div/app-card-exhibitions/div/div/div[2]/div/div[2]/div/div/a",
+      "tipo": "item",
+      "evento": "click"
+    },
+    {
+      "modulo": "exhibition list",
+      "elemento": "back_museum",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-breadcrumbs/nav/ol/li[2]/a",
+      "tipo": "item",
+      "evento": "click"
+    },
+    {
+      "modulo": "exhibition list",
+      "elemento": "read_more",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-museum-detail/div/div/app-card-exhibitions/div/div/div[2]/div/div[1]/div/div/p/app-paragrah-max-length/p/button[1]",
+      "tipo": "item",
+      "evento": "click"
+    },
+    {
+      "modulo": "exhibition list",
+      "elemento": "read_less",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-museum-detail/div/div/app-card-exhibitions/div/div/div[2]/div/div[1]/div/div/p/app-paragrah-max-length/p/button[2]",
+      "tipo": "item",
+      "evento": "click"
+    },
+    {
+      "modulo": "artwork list",
+      "elemento": "view_artwork",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-museum-detail/div/div/app-card-art-works/div/div/div[2]/div/div[1]/div/div/a",
+      "tipo": "item",
+      "evento": "click"
+    },
+    {
+      "modulo": "artwork list",
+      "elemento": "read_more",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-museum-detail/div/div/app-card-art-works/div/div/div[2]/div/div[1]/div/div/p[3]/app-paragrah-max-length/p/button[1]",
+      "tipo": "item",
+      "evento": "click"
+    },
+    {
+      "modulo": "artwork list",
+      "elemento": "read_less",
+      "dirpath": "/html/body/app-root/app-main-container/div/main/app-museum-detail/div/div/app-card-art-works/div/div/div[2]/div/div[1]/div/div/p[3]/app-paragrah-max-length/p/button[2]",
+      "tipo": "item",
+      "evento": "click"
     }
 
 
+    
+
+    
   ]
 }

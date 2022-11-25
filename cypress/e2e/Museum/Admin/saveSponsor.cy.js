@@ -3,7 +3,7 @@
 const { PageObject } = require("../pageObjects/PageObject.js");
 
 let pageObj= new PageObject();
-describe('Save sponsor', () => {
+describe('Save sponsor (HU12)', () => {
   
   before(()=>
   {
